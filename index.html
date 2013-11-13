@@ -4,10 +4,8 @@
 	<title>Welcome to Annabelle's Site</title>
     
 	<link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
-	<link rel="stylesheet" href="CSS/style.css" />
+	<link rel="stylesheet" href="css/style.css" />
 	<script src="js/jquery.js"></script>
-    
-
 <head>
 
 
@@ -58,17 +56,17 @@
 
  </div> 
 
-  <script>
-  /* setup the click to toggle*/
-  $("h3").click(function() {
-     console.log("hi");
-     $(this).next().toggle(500);
-  });
+ <script>
+      /* setup the click to toggle*/
+      $("h3").click(function() {
+      
+         $(this).next().toggle(500);
+      });
 
-  /* Hides all elements right away, when page is loaded everything is collapsed*/
-   $("h3").next().hide();
+      /* Hides all elements right away, when page is loaded everything is collapsed*/
+       $("h3").next().hide();
 
-  </script>
+    </script>
 
 </body>
 </html>
